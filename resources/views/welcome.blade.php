@@ -9,6 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="{{mix('css/app.css')}}" rel="stylesheet" type="text/css">
+
 
         <!-- Styles -->
         <style>
@@ -65,7 +67,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <!-- <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -90,6 +92,9 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <h2 style="text-align: center"> Laravel and React application </h2>
+        <div id="root"></div>
+        <script src="{{mix('js/app.js')}}" ></script>
     </body>
 </html>
