@@ -14,10 +14,10 @@ class Login extends Component {
               </div>
               <div class="col-8 align-self-center text-center">
                 <div class="text-header-login">
-                  <h1>Leave System</h1>
+                  <h1><i class="fa fa-calendar-alt"></i> Leave System</h1>
                 </div>
                 <div class="form">
-                  <form class="login-form">
+                  <form class="login-form" action="/home">
                     <input type="text" placeholder="username"/>
                     <input type="password" placeholder="password"/>
                     <button>login</button>
