@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import logo from './../../../img/ku-logo.png';
+import User from './../dropdown/User';
  
 /* An example React component */
 class NavChoice extends Component {
@@ -17,15 +18,14 @@ class NavChoice extends Component {
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#">History</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
+                  <a class="nav-link" href="#">Course</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <User />
               </form>
             </div>
           </nav>

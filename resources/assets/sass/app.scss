@@ -9,7 +9,10 @@
 @import '~bootstrap/scss/bootstrap';
 
 @import '/components/Login';
+@import '/components/User';
+@import '/components/Profile';
 @import '/components/LoginHeader';
+@import '/components/ActionInMain';
 
 body, html, #Login {
   height: 100%;
@@ -21,4 +24,8 @@ body, html, #Login {
 
 .height-100{
   height: 100%;
+}
+
+.font-bold{
+  font-weight: bold;
 }

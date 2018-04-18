@@ -12,7 +12,7 @@
         <link href="{{mix('css/app.css')}}" rel="stylesheet" type="text/css">
     </head>
     <body>
-      <div id="NavChoice"></div>
+      <div id="Menu"></div>
       <script src="{{mix('js/app.js')}}" ></script>
     </body>
 </html>

@@ -10523,6 +10523,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.border-none-b {
+  border: none;
+  color: black;
+}
+
+#logout.dropdown-item:hover {
+  color: red;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.box-profile {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+}
+
 .text-header-login {
   padding: 5% 0%;
   font-weight: bold;
@@ -10530,6 +10551,14 @@ body {
 
 h1 {
   font-size: 3.7rem !important;
+}
+
+.requesting-title-btn {
+  margin-bottom: 0 !important;
+}
+
+.w-85 {
+  width: 85%;
 }
 
 body,
@@ -10544,5 +10573,9 @@ html,
 
 .height-100 {
   height: 100%;
+}
+
+.font-bold {
+  font-weight: bold;
 }
 

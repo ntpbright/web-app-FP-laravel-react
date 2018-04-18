@@ -6,10 +6,8 @@
  */
 
 require('./bootstrap');
-import Main from './components/Main';
+import Menu from './components/Main';
 import Login from './components/Login';
-import LoginHeader from './components/header/LoginHeader';
-import NavChoice from './components/header/NavChoice';
 import fontawesome from './font-awesome';
 
 /**

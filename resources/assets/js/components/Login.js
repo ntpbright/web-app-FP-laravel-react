@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import logo from './../../img/ku-logo.png';
+import Logo from './../../img/ku-logo.png';
  
 /* An example React component */
 class Login extends Component {
@@ -9,7 +9,7 @@ class Login extends Component {
             <div class="row full-screen">
               <div class="col-4 d-flex bg-white">
                 <div class="align-self-center text-center">
-                  <img class ="img-logo" src={logo}/>
+                  <img class ="img-logo" src={Logo}/>
                 </div>
               </div>
               <div class="col-8 align-self-center text-center">
@@ -17,7 +17,7 @@ class Login extends Component {
                   <h1><i class="fa fa-calendar-alt"></i> Leave System</h1>
                 </div>
                 <div class="form">
-                  <form class="login-form" action="/home">
+                  <form class="login-form" action="/main">
                     <input type="text" placeholder="username"/>
                     <input type="password" placeholder="password"/>
                     <button>login</button>
