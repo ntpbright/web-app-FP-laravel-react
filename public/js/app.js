@@ -41554,31 +41554,31 @@ module.exports = function spread(callback) {
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _createClass = function () {
-    function defineProperties(target, props) {
-        for (var i = 0; i < props.length; i++) {
-            var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
-        }
-    }return function (Constructor, protoProps, staticProps) {
-        if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
-    };
+  function defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
+    }
+  }return function (Constructor, protoProps, staticProps) {
+    if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
+  };
 }();
 
 function _classCallCheck(instance, Constructor) {
-    if (!(instance instanceof Constructor)) {
-        throw new TypeError("Cannot call a class as a function");
-    }
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
 }
 
 function _possibleConstructorReturn(self, call) {
-    if (!self) {
-        throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    }return call && ((typeof call === "undefined" ? "undefined" : _typeof(call)) === "object" || typeof call === "function") ? call : self;
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }return call && ((typeof call === "undefined" ? "undefined" : _typeof(call)) === "object" || typeof call === "function") ? call : self;
 }
 
 function _inherits(subClass, superClass) {
-    if (typeof superClass !== "function" && superClass !== null) {
-        throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : _typeof(superClass)));
-    }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : _typeof(superClass)));
+  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
 }
 
 
@@ -41591,22 +41591,22 @@ function _inherits(subClass, superClass) {
 /* An example React component */
 
 var Menu = function (_Component) {
-    _inherits(Menu, _Component);
+  _inherits(Menu, _Component);
 
-    function Menu() {
-        _classCallCheck(this, Menu);
+  function Menu() {
+    _classCallCheck(this, Menu);
 
-        return _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).apply(this, arguments));
+  }
+
+  _createClass(Menu, [{
+    key: 'render',
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__header_NavChoice__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'row py-3 px-5' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-6 p-1' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__box_Profile__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'card mt-3 p-5' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'd-flex justify-content-between' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'far fa-calendar-alt' }), ' Timetable')), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { 'class': 'mt-0' }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_5__img_timetable_png___default.a, width: '100%' }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-6 p-1' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__box_ActionInMain__["a" /* default */], null))));
     }
+  }]);
 
-    _createClass(Menu, [{
-        key: 'render',
-        value: function render() {
-            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__header_NavChoice__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'row py-3 px-5' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-6 p-1' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__box_Profile__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { 'class': 'mt-3', src: __WEBPACK_IMPORTED_MODULE_5__img_timetable_png___default.a, width: '100%' })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-6 p-1' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__box_ActionInMain__["a" /* default */], null))));
-        }
-    }]);
-
-    return Menu;
+  return Menu;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* unused harmony default export */ var _unused_webpack_default_export = (Menu);
@@ -41615,7 +41615,7 @@ var Menu = function (_Component) {
 */
 
 if (document.getElementById('Menu')) {
-    __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Menu, null), document.getElementById('Menu'));
+  __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Menu, null), document.getElementById('Menu'));
 }
 
 /***/ }),
@@ -60299,7 +60299,7 @@ var Profile = function (_Component) {
   _createClass(Profile, [{
     key: 'render',
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'card' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'row box-profile' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-4' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { 'class': 'profile-img', src: __WEBPACK_IMPORTED_MODULE_2__img_profile_jpg___default.a })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-6' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', { 'class': 'font-bold' }, 'Somchai madee'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Student number : '), '5810541234'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Faculty : '), 'Engineering'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Major : '), 'Software and knowledge'))));
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'card p-5' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'row align-items-center' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-4' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { 'class': 'profile-img', src: __WEBPACK_IMPORTED_MODULE_2__img_profile_jpg___default.a })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-8' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'd-flex justify-content-between align-items-center' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'fas fa-user-circle' }), ' Profile'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('a', { href: '../' }, 'edit'))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { 'class': 'mt-0' }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', { 'class': 'font-bold' }, 'Somchai madee'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Student number : '), '5810541234'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Faculty : '), 'Engineering'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Major : '), 'Software and knowledge'))));
     }
   }]);
 
@@ -60377,7 +60377,7 @@ var ActionInMain = function (_Component) {
   _createClass(ActionInMain, [{
     key: 'render',
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'card' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'row box-profile' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-12' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'far fa-calendar-minus' }), ' Requesting'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'row text-center' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-4' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('button', { type: 'button', 'class': 'btn btn-light w-75' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'fas fa-procedures fa-5x' }), ' ', __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('p', { 'class': 'requesting-title-btn' }, 'Sick leave'))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-4' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('button', { type: 'button', 'class': 'btn btn-light w-75' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'fas fa-plane fa-5x' }), ' ', __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('p', { 'class': 'requesting-title-btn' }, 'Vacation leave'))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-4' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('button', { type: 'button', 'class': 'btn btn-light w-75' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'fas fa-universal-access fa-5x' }), ' ', __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('p', { 'class': 'requesting-title-btn' }, 'Persornal Errand leave'), ' ')))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-6' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', { 'class': 'font-bold' }, 'Somchai madee'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Student number : '), '5810541234'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Faculty : '), 'Engineering'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h5', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('bold', null, 'Major : '), 'Software and knowledge'))));
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'card p-5' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'row align-items-center mb-2' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-12' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'd-flex' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'far fa-calendar-minus' }), ' Requesting')), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { 'class': 'mt-0' }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'row text-center' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-4' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('button', { type: 'button', 'class': 'btn btn-light w-75' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'fas fa-procedures fa-5x' }), ' ', __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('p', { 'class': 'requesting-title-btn' }, 'Sick leave'))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-4' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('button', { type: 'button', 'class': 'btn btn-light w-75' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'fas fa-plane fa-5x' }), ' ', __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('p', { 'class': 'requesting-title-btn' }, 'Vacation leave'))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-4' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('button', { type: 'button', 'class': 'btn btn-light w-75' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'fas fa-universal-access fa-5x' }), ' ', __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('p', { 'class': 'requesting-title-btn' }, 'Persornal Errand leave'), ' ')))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'col-12 mt-5' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { 'class': 'd-flex' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { 'class': 'far fa-calendar-minus' }), ' Recent request')), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { 'class': 'mt-0' }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('table', { 'class': 'table table-hover' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('thead', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('tr', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('th', { scope: 'col' }, 'Title'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('th', { scope: 'col' }, 'Course'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('th', { scope: 'col' }, 'Date'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('th', { scope: 'col' }, 'Status'))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('tbody', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('tr', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('th', { scope: 'row' }, 'Sick'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, 'Web application'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, '19/04/2018-19/04/2018'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'badge badge-success' }, 'Success'))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('tr', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('th', { scope: 'row' }, 'Vacation'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, 'Web application'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, '19/04/2018-19/04/2018'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'badge badge-danger' }, 'Deline'))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('tr', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('th', { scope: 'row' }, 'Personal'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, 'Web application'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, '19/04/2018-19/04/2018'), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('td', null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { 'class': 'badge badge-warning' }, 'Pending'))))))));
     }
   }]);
 

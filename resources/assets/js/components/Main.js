@@ -14,7 +14,13 @@ class Menu extends Component {
                 <div class="row py-3 px-5">
                   <div class="col-6 p-1">
                     <Profile />
-                    <img class="mt-3" src={Timetable} width="100%"/>
+                    <div class="card mt-3 p-5">
+                      <div class="d-flex justify-content-between">
+                        <h3><i class="far fa-calendar-alt"></i> Timetable</h3>
+                      </div>
+                      <hr class="mt-0"></hr>
+                      <img src={Timetable} width="100%"/>
+                    </div>
                   </div>
                   <div class="col-6 p-1">
                     <ActionInMain/>

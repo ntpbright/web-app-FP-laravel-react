@@ -5,11 +5,13 @@ import ReactDOM from 'react-dom';
 class ActionInMain extends Component {
     render() {
         return (
-          <div class = "card">
-            <div class="row box-profile">
+          <div class = "card p-5">
+            <div class="row align-items-center mb-2">
               <div class="col-12">
-                <h3><i class="far fa-calendar-minus"></i> Requesting</h3>
-                <hr></hr>
+                <div class="d-flex">
+                  <h3><i class="far fa-calendar-minus"></i> Requesting</h3>        
+                </div> 
+                <hr class="mt-0"></hr>
                 <div class="row text-center">
                   <div class="col-4">
                     <button type="button" class="btn btn-light w-75"><i class="fas fa-procedures fa-5x"></i> <p class="requesting-title-btn">Sick leave</p></button>
@@ -22,11 +24,41 @@ class ActionInMain extends Component {
                   </div>
                 </div>
               </div>
-              <div class="col-6">
-                <h3 class="font-bold">Somchai madee</h3>
-                <h5><bold>Student number : </bold>5810541234</h5>
-                <h5><bold>Faculty : </bold>Engineering</h5>
-                <h5><bold>Major : </bold>Software and knowledge</h5>
+              <div class="col-12 mt-5">
+                <div class="d-flex">
+                  <h3><i class="far fa-calendar-minus"></i> Recent request</h3>
+                </div> 
+                <hr class="mt-0"></hr>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Title</th>
+                      <th scope="col">Course</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Sick</th>
+                      <td>Web application</td>
+                      <td>19/04/2018-19/04/2018</td>
+                      <td><span class="badge badge-success">Success</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Vacation</th>
+                      <td>Web application</td>
+                      <td>19/04/2018-19/04/2018</td>
+                      <td><span class="badge badge-danger">Deline</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Personal</th>
+                      <td>Web application</td>
+                      <td>19/04/2018-19/04/2018</td>
+                      <td><span class="badge badge-warning">Pending</span></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>

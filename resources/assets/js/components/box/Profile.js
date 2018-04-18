@@ -6,12 +6,17 @@ import ProfileImg from './../../../img/profile.jpg';
 class Profile extends Component {
     render() {
         return (
-          <div class = "card">
-            <div class="row box-profile">
+          <div class = "card p-5">
+            <div class="row align-items-center">            
               <div class="col-4">
                 <img class ="profile-img" src={ProfileImg}/>
               </div>
-              <div class="col-6">
+              <div class="col-8">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3><i class="fas fa-user-circle"></i> Profile</h3>
+                  <h5><a href="../">edit</a></h5>
+                </div>
+                <hr class="mt-0"></hr>
                 <h3 class="font-bold">Somchai madee</h3>
                 <h5><bold>Student number : </bold>5810541234</h5>
                 <h5><bold>Faculty : </bold>Engineering</h5>
