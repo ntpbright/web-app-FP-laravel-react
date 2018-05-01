@@ -18,3 +18,19 @@ Route::get('/', function () {
 Route::get('/main', function () {
   return view('main');
 });
+
+Route::get('/profile', function () {
+  return view('profile');
+});
+
+Route::get('/r-VL', function () {
+  return view('vacation');
+});
+
+Route::get('/r-SL', function () {
+  return view('sick');
+});
+
+Route::get('/r-PEL', function () {
+  return view('personal');
+});

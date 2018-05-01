@@ -1,3 +1,9 @@
+# How to run server
+php artisan serve
+
+# When change code in project have to run
+npm run dev
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">

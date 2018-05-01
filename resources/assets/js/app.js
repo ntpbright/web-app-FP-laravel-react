@@ -8,6 +8,10 @@
 require('./bootstrap');
 import Menu from './components/Main';
 import Login from './components/Login';
+import ProfilePage from './components/ProfilePage';
+import PersonalLeave from './components/PersonalLeave';
+import SickLeave from './components/SickLeave';
+import VacationLeave from './components/VacationLeave';
 import fontawesome from './font-awesome';
 
 /**

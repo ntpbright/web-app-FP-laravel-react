@@ -14,13 +14,13 @@ class ActionInMain extends Component {
                 <hr class="mt-0"></hr>
                 <div class="row text-center">
                   <div class="col-4">
-                    <button type="button" class="btn btn-light w-75"><i class="fas fa-procedures fa-5x"></i> <p class="requesting-title-btn">Sick leave</p></button>
+                    <button type="button" class="btn btn-light w-75" ><a href="../r-SL"><i class="fas fa-procedures fa-5x"></i> <p class="requesting-title-btn">Sick leave</p></a></button>
                   </div>
                   <div class="col-4">
-                    <button type="button" class="btn btn-light w-75"><i class="fas fa-plane fa-5x"></i> <p class="requesting-title-btn">Vacation leave</p></button>
+                    <button type="button" class="btn btn-light w-75" href="../r-VL"><i class="fas fa-plane fa-5x"></i> <p class="requesting-title-btn">Vacation leave</p></button>
                   </div>
                   <div class="col-4">
-                    <button type="button" class="btn btn-light w-75"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal Errand leave</p> </button>
+                    <button type="button" class="btn btn-light w-75" href="../r-PEL"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal<br/>Errand leave</p> </button>
                   </div>
                 </div>
               </div>
@@ -33,6 +33,7 @@ class ActionInMain extends Component {
                   <thead>
                     <tr>
                       <th scope="col">Title</th>
+                      <th scope="col">Type</th>
                       <th scope="col">Course</th>
                       <th scope="col">Date</th>
                       <th scope="col">Status</th>
@@ -40,22 +41,25 @@ class ActionInMain extends Component {
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">Sick</th>
+                      <th scope="row">Example of title</th>
+                      <td>Sick</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><span class="badge badge-success">Success</span></td>
+                      <td><h5><span class="badge badge-pill badge-success">Success</span></h5></td>
                     </tr>
                     <tr>
-                      <th scope="row">Vacation</th>
+                      <th scope="row">Example of title</th>
+                      <td>Vacation</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><span class="badge badge-danger">Deline</span></td>
+                      <td><h5><span class="badge badge-pill badge-danger">Deline</span></h5></td>
                     </tr>
                     <tr>
-                      <th scope="row">Personal</th>
+                      <th scope="row">Example of title</th>
+                      <td>Personal</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><span class="badge badge-warning">Pending</span></td>
+                      <td><h5><span class="badge badge-pill badge-warning">Pending</span></h5></td>
                     </tr>
                   </tbody>
                 </table>
