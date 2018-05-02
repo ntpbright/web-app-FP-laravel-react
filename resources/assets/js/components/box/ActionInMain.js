@@ -21,7 +21,7 @@ class ActionInMain extends Component {
                       <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-VL" class="black-nondecoration"><i class="fas fa-plane fa-5x"></i> <p class="requesting-title-btn">Vacation leave</p></a></button>
                     </div>
                     <div class="col-4">
-                      <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-SEL" class="black-nondecoration"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal<br/>Errand leave</p></a></button>
+                      <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-PEL" class="black-nondecoration"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal<br/>Errand leave</p></a></button>
                     </div>
                   </div>
                 </div>
@@ -72,20 +72,19 @@ class ActionInMain extends Component {
                   </tbody>
                 </table>
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Your request status</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body">
-                        ...
+                        Your requesting is in or system.
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                       </div>
                     </div>
                   </div>
