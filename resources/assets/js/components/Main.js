@@ -11,15 +11,17 @@ class Menu extends Component {
         return (
             <div>
                 <NavChoice />
-                <div class="row py-3 px-5 width-100">
+                <div class="d-flex py-3 px-5 width-100">
                   <div class="col-6 p-1">
                     <Profile />
-                    <div class="card mt-3 p-5">
-                      <div class="d-flex justify-content-between">
-                        <h3><i class="far fa-calendar-alt"></i> Timetable</h3>
+                    <div class="card mt-3 p-lg-5 px-xl-5 py-xl-3">
+                      <div class="my-lg-3">
+                        <div class="d-flex justify-content-between">
+                          <h3><i class="far fa-calendar-alt"></i> Timetable</h3>
+                        </div>
+                        <hr class="mt-0"></hr>
+                        <img src={Timetable} width="100%"/>
                       </div>
-                      <hr class="mt-0"></hr>
-                      <img src={Timetable} width="100%"/>
                     </div>
                   </div>
                   <div class="col-6 p-1">

@@ -5,26 +5,30 @@ import ReactDOM from 'react-dom';
 class ActionInMain extends Component {
     render() {
         return (
-          <div class = "card p-5">
-            <div class="row align-items-center mb-2">
-              <div class="col-12">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h3><i class="far fa-calendar-minus"></i> Requesting</h3>    
-                </div> 
-                <hr class="mt-0"></hr>
-                <div class="row text-center">
-                  <div class="col-4">
-                    <button type="button" class="btn btn-light" ><a href="../r-SL"><i class="fas fa-procedures fa-5x"></i> <p class="requesting-title-btn">Sick leave</p></a></button>
-                  </div>
-                  <div class="col-4">
-                    <button type="button" class="btn btn-light" ><a href="../r-VL"><i class="fas fa-plane fa-5x"></i> <p class="requesting-title-btn">Vacation leave</p></a></button>
-                  </div>
-                  <div class="col-4">
-                    <button type="button" class="btn btn-light" ><a href="../r-SEL"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal<br/>Errand leave</p></a></button>
+          <div>
+            <div class = "card p-5">
+              <div class="row align-items-center my-1">
+                <div class="col-12 my-xl-3 my-lg-2">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3><i class="far fa-calendar-minus"></i> Requesting</h3>    
+                  </div> 
+                  <hr class="mt-0"></hr>
+                  <div class="row text-center">
+                    <div class="col-4">
+                      <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-SL" class="black-nondecoration"><i class="fas fa-procedures fa-5x"></i> <p class="requesting-title-btn">Sick leave</p></a></button>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-VL" class="black-nondecoration"><i class="fas fa-plane fa-5x"></i> <p class="requesting-title-btn">Vacation leave</p></a></button>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-SEL" class="black-nondecoration"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal<br/>Errand leave</p></a></button>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12 mt-5">
+            </div>
+            <div class = "card p-5 mt-3">
+              <div class="col-12 my-xl-3 my-lg-2">
                 <div class="d-flex justify-content-between align-items-center">
                   <h3><i class="far fa-calendar-minus"></i> Recent request</h3>
                   <h5><a href="../">View all</a></h5>
@@ -46,21 +50,24 @@ class ActionInMain extends Component {
                       <td>Sick</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><h5><span class="badge badge-pill badge-success">Success</span></h5></td>
+                      <td><h5><button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">Success</button></h5></td>
+                      {/* <td><h5><button type="button" class="badge badge-pill badge-success">Success</button></h5></td> */}
                     </tr>
                     <tr>
                       <th scope="row">Example of title</th>
                       <td>Vacation</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><h5><span class="badge badge-pill badge-danger">Deline</span></h5></td>
+                      <td><h5><button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">Deline</button></h5></td>
+                      {/* <td><h5><span class="badge badge-pill badge-danger">Deline</span></h5></td> */}
                     </tr>
                     <tr>
                       <th scope="row">Example of title</th>
                       <td>Personal</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><h5><span class="badge badge-pill badge-warning">Pending</span></h5></td>
+                      <td><h5><button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#exampleModal">Pending</button></h5></td>
+                      {/* <td><h5><span class="badge badge-pill badge-warning">Pending</span></h5></td> */}
                     </tr>
                   </tbody>
                 </table>

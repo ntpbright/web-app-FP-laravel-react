@@ -6,3 +6,29 @@ $body-bg: #f5f8fa;
 $font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 10),
+  5: ($spacer * 3)
+), $spacers);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1366px,
+  xl: 1680px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 1320px,
+  xl: 1620px
+);
