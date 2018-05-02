@@ -11,7 +11,7 @@ class Menu extends Component {
         return (
             <div>
                 <NavChoice />
-                <div class="row py-3 px-5">
+                <div class="row py-3 px-5 width-100">
                   <div class="col-6 p-1">
                     <Profile />
                     <div class="card mt-3 p-5">

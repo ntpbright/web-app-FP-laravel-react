@@ -9,7 +9,7 @@ class User extends Component {
             <button class="btn btn-outline-info border-none-b dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Username
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#"><i class="far fa-user-circle"></i> Profile</a>
               <a class="dropdown-item" href="#"><i class="fas fa-cogs"></i> Setting</a>
               <div class="dropdown-divider"></div>

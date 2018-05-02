@@ -8,25 +8,26 @@ class ActionInMain extends Component {
           <div class = "card p-5">
             <div class="row align-items-center mb-2">
               <div class="col-12">
-                <div class="d-flex">
-                  <h3><i class="far fa-calendar-minus"></i> Requesting</h3>        
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3><i class="far fa-calendar-minus"></i> Requesting</h3>    
                 </div> 
                 <hr class="mt-0"></hr>
                 <div class="row text-center">
                   <div class="col-4">
-                    <button type="button" class="btn btn-light w-75" ><a href="../r-SL"><i class="fas fa-procedures fa-5x"></i> <p class="requesting-title-btn">Sick leave</p></a></button>
+                    <button type="button" class="btn btn-light" ><a href="../r-SL"><i class="fas fa-procedures fa-5x"></i> <p class="requesting-title-btn">Sick leave</p></a></button>
                   </div>
                   <div class="col-4">
-                    <button type="button" class="btn btn-light w-75" href="../r-VL"><i class="fas fa-plane fa-5x"></i> <p class="requesting-title-btn">Vacation leave</p></button>
+                    <button type="button" class="btn btn-light" ><a href="../r-VL"><i class="fas fa-plane fa-5x"></i> <p class="requesting-title-btn">Vacation leave</p></a></button>
                   </div>
                   <div class="col-4">
-                    <button type="button" class="btn btn-light w-75" href="../r-PEL"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal<br/>Errand leave</p> </button>
+                    <button type="button" class="btn btn-light" ><a href="../r-SEL"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal<br/>Errand leave</p></a></button>
                   </div>
                 </div>
               </div>
               <div class="col-12 mt-5">
-                <div class="d-flex">
+                <div class="d-flex justify-content-between align-items-center">
                   <h3><i class="far fa-calendar-minus"></i> Recent request</h3>
+                  <h5><a href="../">View all</a></h5>
                 </div> 
                 <hr class="mt-0"></hr>
                 <table class="table table-hover">
@@ -63,6 +64,25 @@ class ActionInMain extends Component {
                     </tr>
                   </tbody>
                 </table>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
