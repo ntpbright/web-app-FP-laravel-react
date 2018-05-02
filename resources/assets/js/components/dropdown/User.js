@@ -10,8 +10,7 @@ class User extends Component {
               Username
             </button>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#"><i class="far fa-user-circle"></i> Profile</a>
-              <a class="dropdown-item" href="#"><i class="fas fa-cogs"></i> Setting</a>
+              <a class="dropdown-item" href="./profile"><i class="far fa-user-circle"></i> Profile</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" id="logout" href="../"><i class="fas fa-sign-out-alt"></i> Logout</a>
             </div>
