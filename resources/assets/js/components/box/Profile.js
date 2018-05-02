@@ -14,7 +14,7 @@ class Profile extends Component {
               <div class="col-8">
                 <div class="d-flex justify-content-between align-items-center">
                   <h3><i class="fas fa-user-circle"></i> Profile</h3>
-                  <h5><a href="../">edit</a></h5>
+                  <h5><a href="./profile">edit</a></h5>
                 </div>
                 <hr class="mt-0"></hr>
                 <h3 class="font-bold">Somchai madee</h3>

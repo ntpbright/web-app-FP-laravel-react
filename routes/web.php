@@ -23,6 +23,10 @@ Route::get('/profile', function () {
   return view('profile');
 });
 
+Route::get('/history', function () {
+  return view('history');
+});
+
 Route::get('/r-VL', function () {
   return view('vacation');
 });

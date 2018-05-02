@@ -13,6 +13,7 @@ import PersonalLeave from './components/PersonalLeave';
 import SickLeave from './components/SickLeave';
 import VacationLeave from './components/VacationLeave';
 import fontawesome from './font-awesome';
+import History from './components/History';
 
 /**
  * Next, we will create a fresh React component instance and attach it to
