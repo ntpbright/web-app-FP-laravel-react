@@ -10563,6 +10563,16 @@ tbody {
   text-decoration: none;
 }
 
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  .img-logo {
+    width: 40%;
+  }
+}
+
 body,
 html,
 #Login {
@@ -10621,5 +10631,13 @@ input[type=text] {
 
 .react-datepicker-wrapper {
   width: 100%;
+}
+
+.row-nonmargin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 

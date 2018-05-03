@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import NavChoice from './header/NavChoice';
-import ProfileImg from './../../img/profile.jpg';
+import Nav from './Nav';
+import ProfileImg from './../../../img/profile.jpg';
 
 /* An example React component */
-class ProfilePage extends Component {
+class ProfProfileEdit extends Component {
     render() {
         return (
             <div>
-              <NavChoice />
+              <Nav />
               <div class="container mt-3">
                 <div class="row">
                   <div class="col-12 card px-5">
@@ -32,8 +32,8 @@ class ProfilePage extends Component {
                         <div class="row">
                           <div class="col-12">
                             <div class="form-group">
-                              <label for="stdid">Student ID</label>
-                              <input type="number" class="form-control" id="stdid" placeholder="ex. 581051234"></input>
+                              <label for="profid">Professor ID</label>
+                              <input type="number" class="form-control" id="profid" placeholder="ex. E103"></input>
                             </div>
                           </div>
                           <div class="col-6">
@@ -48,12 +48,12 @@ class ProfilePage extends Component {
                           </div>
                           <div class="col-6">
                             <div class="form-group">
-                              <label for="Lastname">Lastname</label>
+                              <label for="lastname">Lastname</label>
                               <input type="text" class="form-control" id="lastname" placeholder="Lastname"></input>
                             </div>
-                            <div class="Major">
-                              <label for="major">Major</label>
-                              <input type="text" class="form-control" id="major" placeholder="ex. Software and knowledge"></input>
+                            <div class="form-group">
+                              <label for="e-mail">E-Mail</label>
+                              <input type="e-mail" class="form-control" id="e-mail" placeholder="test@testserver.com"></input>
                             </div>
                           </div>
                           <div class="col-12">
@@ -89,7 +89,7 @@ class ProfilePage extends Component {
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>                    
-                      <a href="/main" class="btn btn-primary" role="button">Yes</a>
+                      <a href="./main" class="btn btn-primary" role="button">Yes</a>
                     </div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ class ProfilePage extends Component {
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                      <a href="/main" class="btn btn-danger" role="button">Go back</a>
+                      <a href="./main" class="btn btn-danger" role="button">Go back</a>
                     </div>
                   </div>
                 </div>
@@ -118,11 +118,11 @@ class ProfilePage extends Component {
     }
 }
  
-export default ProfilePage;
+export default ProfProfileEdit;
  
 /* The if statement is required so as to Render the component on pages that have a div with an ID of "root";  
 */
  
-if (document.getElementById('ProfilePage')) {
-    ReactDOM.render(<ProfilePage />, document.getElementById('ProfilePage'));
+if (document.getElementById('ProfProfileEdit')) {
+    ReactDOM.render(<ProfProfileEdit />, document.getElementById('ProfProfileEdit'));
 }

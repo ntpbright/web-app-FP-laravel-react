@@ -38,3 +38,14 @@ Route::get('/r-SL', function () {
 Route::get('/r-PEL', function () {
   return view('personal');
 });
+
+
+Route::get('/prof/main', function () {
+  return view('prof-main');
+});
+Route::get('/prof/history', function () {
+  return view('prof-history');
+});
+Route::get('/prof/profile', function () {
+  return view('prof-profile');
+});

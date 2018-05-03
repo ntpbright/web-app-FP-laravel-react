@@ -10,18 +10,17 @@ class ActionInMain extends Component {
               <div class="row align-items-center my-1">
                 <div class="col-12 my-xl-3 my-lg-2">
                   <div class="d-flex justify-content-between align-items-center">
-                    <h3><i class="far fa-calendar-minus"></i> Requesting</h3>    
+                    <h3><i class="far fa-calendar-minus"></i> Notification</h3>    
                   </div> 
                   <hr class="mt-0"></hr>
                   <div class="row text-center">
-                    <div class="col-4">
-                      <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-SL" class="black-nondecoration"><i class="fas fa-procedures fa-5x"></i> <p class="requesting-title-btn">Sick leave</p></a></button>
+                    <div class="col-6 text-center">
+                      <h3>15</h3>
+                      <p>New request</p>
                     </div>
-                    <div class="col-4">
-                      <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-VL" class="black-nondecoration"><i class="fas fa-plane fa-5x"></i> <p class="requesting-title-btn">Vacation leave</p></a></button>
-                    </div>
-                    <div class="col-4">
-                      <button type="button" class="btn btn-light w-100 h-100" ><a href="../r-PEL" class="black-nondecoration"><i class="fas fa-universal-access fa-5x"></i> <p class="requesting-title-btn">Persornal<br/>Errand leave</p></a></button>
+                    <div class="col-6 text-center">
+                      <h3>3</h3>
+                      <p>Pending</p>
                     </div>
                   </div>
                 </div>
@@ -41,7 +40,7 @@ class ActionInMain extends Component {
                       <th scope="col">Type</th>
                       <th scope="col">Course</th>
                       <th scope="col">Date</th>
-                      <th scope="col">Status</th>
+                      <th scope="col">Cosider</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -50,7 +49,9 @@ class ActionInMain extends Component {
                       <td>Sick</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><h5><button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">Success</button></h5></td>
+                      <td>
+                        <h5><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#more-detail">More detail</button></h5>
+                      </td>
                       {/* <td><h5><button type="button" class="badge badge-pill badge-success">Success</button></h5></td> */}
                     </tr>
                     <tr>
@@ -58,7 +59,9 @@ class ActionInMain extends Component {
                       <td>Vacation</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><h5><button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">Deline</button></h5></td>
+                      <td>
+                        <h5><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#more-detail">More detail</button></h5>
+                      </td>
                       {/* <td><h5><span class="badge badge-pill badge-danger">Deline</span></h5></td> */}
                     </tr>
                     <tr>
@@ -66,25 +69,37 @@ class ActionInMain extends Component {
                       <td>Personal</td>
                       <td>Web application</td>
                       <td>19/04/2018-19/04/2018</td>
-                      <td><h5><button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#exampleModal">Pending</button></h5></td>
+                      <td>
+                        <h5><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#more-detail">More detail</button></h5>
+                      </td>
                       {/* <td><h5><span class="badge badge-pill badge-warning">Pending</span></h5></td> */}
                     </tr>
                   </tbody>
                 </table>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* Modal */}
+                <div class="modal fade" id="more-detail" tabindex="-1" role="dialog" aria-labelledby="more-detail" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Your request status</h5>
+                        <h5 class="modal-title" id="more-detail">Title of request</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body">
-                        Your requesting is in or system.
+                        Student number : 5810541234<br/>
+                        Name : Somchai Madee<br/>
+                        Attrach file : none<br/>
+                        Detail:
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Deline</button>
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Approve</button>
                       </div>
                     </div>
                   </div>

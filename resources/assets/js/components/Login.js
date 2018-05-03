@@ -6,13 +6,13 @@ import Logo from './../../img/ku-logo.png';
 class Login extends Component {
     render() {
         return (
-            <div class="row full-screen">
-              <div class="col-4 d-flex bg-white">
+            <div class="row-nonmargin full-screen">
+              <div class="col-lg-4 col-sm-12 d-flex bg-white">
                 <div class="align-self-center text-center">
                   <img class ="img-logo" src={Logo}/>
                 </div>
               </div>
-              <div class="col-8 align-self-center text-center">
+              <div class="col-lg-8 col-sm-12 align-self-center text-center">
                 <div class="text-header-login">
                   <h1><i class="fa fa-calendar-alt"></i> Leave System</h1>
                 </div>

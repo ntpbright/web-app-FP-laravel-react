@@ -13,6 +13,7 @@
 @import '/components/Profile';
 @import '/components/LoginHeader';
 @import '/components/ActionInMain';
+@import '/components/Mobile';
 
 body, html, #Login {
   height: 100%;
@@ -69,4 +70,12 @@ input[type=text] {
 }
 .react-datepicker-wrapper{
   width:100%;
+}
+
+.row-nonmargin{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }

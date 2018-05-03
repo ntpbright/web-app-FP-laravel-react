@@ -4,7 +4,7 @@ import logo from './../../../img/ku-logo.png';
 import User from './../dropdown/User';
  
 /* An example React component */
-class NavChoice extends Component {
+class Nav extends Component {
     render() {
         return (
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -15,23 +15,10 @@ class NavChoice extends Component {
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="./main">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Requesting
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./r-SL">Sick leave</a>
-                    <a class="dropdown-item" href="./r-VL">Vacation leave</a>
-                    <a class="dropdown-item" href="./r-PEL">Personal errand leave</a>
-                  </div>
+                  <a class="nav-link" href="./main">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./history">History</a>
-                </li>
-                <li class="nav-item">
-                  {/* <a class="nav-link" href="./course">Course</a> */}
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -43,11 +30,11 @@ class NavChoice extends Component {
     }
 }
  
-export default NavChoice;
+export default Nav;
  
 /* The if statement is required so as to Render the component on pages that have a div with an ID of "root";  
 */
  
-if (document.getElementById('NavChoice')) {
-    ReactDOM.render(<NavChoice />, document.getElementById('NavChoice'));
+if (document.getElementById('Nav')) {
+    ReactDOM.render(<Nav />, document.getElementById('Nav'));
 }

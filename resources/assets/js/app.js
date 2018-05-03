@@ -15,6 +15,10 @@ import VacationLeave from './components/VacationLeave';
 import fontawesome from './font-awesome';
 import History from './components/History';
 
+import ProfMain from './components/Prof/ProfMain';
+import ProfHistory from './components/Prof/ProfHistory';
+import ProfProfileEdit from './components/Prof/ProfProfileEdit';
+
 /**
  * Next, we will create a fresh React component instance and attach it to
  * the page. Then, you may begin adding components to this application
