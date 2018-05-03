@@ -20,25 +20,25 @@ class SickLeave extends Component {
                   </div>
                   <form>
                     <div class="row">
-                      <div class="col-4">
+                      <div class="col-lg-4 col-sm-6">
                         <div class="form-group">
                           <label for="Course number">Course number</label>
                           <input type="course-number" class="form-control" id="Course number" placeholder="Couse number ex. 01223412"></input>
                         </div>
                       </div>
-                      <div class="col-4">
+                      <div class="col-lg-4 col-sm-6">
                         <div class="form-group">
                           <label for="Teacher">Teacher</label>
                           <input type="Teacher" class="form-control" id="Teacher" placeholder="Name of teacher in course" disabled></input>
                         </div>
                       </div>
-                      <div class="col-2">
+                      <div class="col-lg-2 col-sm-6">
                         <div class="form-group">
                           <label>Start date</label>
                           <Datepicker />
                         </div>
                       </div>
-                      <div class="col-2">
+                      <div class="col-lg-2 col-sm-6">
                         <div class="form-group">
                           <label>End date</label>
                           <Datepicker />
@@ -46,13 +46,13 @@ class SickLeave extends Component {
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <div class="form-group">
                           <label for="title-r">Title</label>
                           <input type="title-r" class="form-control" id="title-r" placeholder="Title of your request"></input>
                         </div>
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <div class="form-group">
                           <label for="file">Select your attract file</label>
                           <div class="custom-file">

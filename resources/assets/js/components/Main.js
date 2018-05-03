@@ -11,10 +11,10 @@ class Menu extends Component {
         return (
             <div>
                 <NavChoice />
-                <div class="d-flex py-lg-3 px-lg-5 width-100">
+                <div class="row-nonmargin py-lg-3 px-lg-5 width-100">
                   <div class="col-lg-6 col-sm-12 p-1">
                     <Profile />
-                    <div class="card mt-3 p-lg-5 px-xl-5 py-xl-3">
+                    <div class="card mt-3 p-lg-5 px-xl-5 py-xl-3 p-1rem">
                       <div class="my-lg-3">
                         <div class="d-flex justify-content-between">
                           <h3><i class="far fa-calendar-alt"></i> Timetable</h3>
@@ -24,7 +24,7 @@ class Menu extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6 col-sm-12 p-lg-1">
+                  <div class="col-lg-6 col-sm-12 p-lg-1 p-1">
                     <ActionInMain/>
                   </div>
                 </div>

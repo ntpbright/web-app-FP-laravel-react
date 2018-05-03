@@ -15,7 +15,7 @@ class History extends Component {
                           <h1>History</h1>
                           <p>List of previous requests </p>
                         </div>
-                        <table class="table table-hover">
+                        <table class="table table-hover table-responsive-sm">
                           <thead>
                             <tr>
                               <th scope="col">Title</th>

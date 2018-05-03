@@ -6,7 +6,7 @@ class ActionInMain extends Component {
     render() {
         return (
           <div>
-            <div class = "card p-5">
+            <div class = "card p-lg-5 p-1rem">
               <div class="row align-items-center my-1">
                 <div class="col-12 my-xl-3 my-lg-2">
                   <div class="d-flex justify-content-between align-items-center">
@@ -27,14 +27,14 @@ class ActionInMain extends Component {
                 </div>
               </div>
             </div>
-            <div class = "card p-5 mt-3">
+            <div class = "card p-lg-5 mt-lg-3 p-1rem mt-2">
               <div class="col-12 my-xl-3 my-lg-2">
                 <div class="d-flex justify-content-between align-items-center">
                   <h3><i class="far fa-calendar-minus"></i> Recent request</h3>
                   <h5><a href="./history">View all</a></h5>
                 </div> 
                 <hr class="mt-0"></hr>
-                <table class="table table-hover">
+                <table class="table table-hover table-responsive-sm">
                   <thead>
                     <tr>
                       <th scope="col">Title</th>

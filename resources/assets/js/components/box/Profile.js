@@ -6,12 +6,12 @@ import ProfileImg from './../../../img/profile.jpg';
 class Profile extends Component {
     render() {
         return (
-          <div class = "card p-5">
-            <div class="row align-items-center">            
-              <div class="col-4">
+          <div class = "card p-lg-5 p-sm-3">
+            <div class="row align-items-center p-1rem">            
+              <div class="col-lg-4 col-sm-12">
                 <img class ="profile-img" src={ProfileImg}/>
               </div>
-              <div class="col-8">
+              <div class="col-lg-8 col-sm-12">
                 <div class="d-flex justify-content-between align-items-center">
                   <h3><i class="fas fa-user-circle"></i> Profile</h3>
                   <h5><a href="./profile">edit</a></h5>

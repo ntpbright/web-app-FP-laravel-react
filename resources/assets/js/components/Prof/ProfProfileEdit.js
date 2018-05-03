@@ -11,13 +11,13 @@ class ProfProfileEdit extends Component {
               <Nav />
               <div class="container mt-3">
                 <div class="row">
-                  <div class="col-12 card px-5">
+                  <div class="col-lg-12 card px-5">
                     <div class="d-flex justify-content-between align-items-center mt-5">
                       <h2>Profile</h2>
                     </div>
                     <hr class="mt-0"></hr>
                     <div class="row">
-                      <div class="col-4">
+                      <div class="col-lg-4 col-sm-12">
                         <div class="text-center">
                           <img class ="profile-img w-75" src={ProfileImg}/>
                           <div class="input-group mt-3">
@@ -28,7 +28,7 @@ class ProfProfileEdit extends Component {
                           </div>
                         </div>
                       </div>
-                      <div class="col-8">
+                      <div class="col-lg-8 col-sm-12">
                         <div class="row">
                           <div class="col-12">
                             <div class="form-group">
